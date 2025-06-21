@@ -1,5 +1,7 @@
 # ⚡ Lightning-Fast Speech-to-Text Tool
 
+> **🤯 Plot Twist:** This entire application was built by someone who had never coded before, with AI assistance! If you're reading this thinking "I could never build something like this" - think again! This is proof that modern AI has democratized software development. Anyone can build amazing tools now! 🚀
+
 A GPU-accelerated speech-to-text application with smart VRAM management and instant transcription.
 
 ## 🚀 Features
