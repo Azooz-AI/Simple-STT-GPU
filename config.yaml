@@ -1,0 +1,41 @@
+# Speech-to-Text Configuration
+
+# Model size options:
+# tiny, base, small, medium, large, large-v2, large-v3
+model_size: "Systran/faster-distil-whisper-large-v3"
+
+# Language settings:
+# Set to "auto" for automatic detection
+# OR specify manually, e.g., "en" for English, "ar" for Arabic, etc.
+language: "auto"
+
+# Device to use for inference:
+# cpu (safe), or cuda (if you have an NVIDIA GPU)
+device: "cuda"
+
+# Compute type for faster-whisper:
+# float16 (fastest on GPU), int8 (balanced), float32 (safest, slowest)
+compute_type: "float16"
+
+# Hotkey to start/stop recording:
+# Examples: "f9", "ctrl+shift+r", "alt+r", etc.
+hotkey: "ctrl+shift+r"
+
+# Audio recording settings:
+# sample_rate: common values are 16000 (recommended), 44100, etc.
+sample_rate: 16000
+typing_delay: 0.01
+# channels: 1 = mono, 2 = stereo
+channels: 1
+
+# Custom notification sounds
+start_sound: "start.mp3"
+stop_sound: "stop.mp3"
+sound_volume: 0.1  # 0.0 = silent, 1.0 = full blast
+
+# Enable notification popups (true or false)
+enable_sounds: true
+chunk_duration: 1.5    # seconds per slice
+silence_threshold: 1.5 # seconds to detect "done talking"
+live_typing: true      # enable the magic
+

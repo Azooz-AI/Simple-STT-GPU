@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment  
+venv/
+env/
+
+# Generated log files
+*.log
+
+# Generated icon files
+*.ico
+stt_icon*.ico
+
+# Windows files
+Thumbs.db
+
+# Backup files
+*_backup.py
+Old/
