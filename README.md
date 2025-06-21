@@ -2,6 +2,8 @@
 
 > **🤯 Plot Twist:** This entire application was built by someone who had never coded before, with AI assistance! If you're reading this thinking "I could never build something like this" - think again! This is proof that modern AI has democratized software development. Anyone can build amazing tools now! 🚀
 
+> **😅 The Real Story:** I got tired of typing long messages to ChatGPT, Claude, and Gemini. ChatGPT's desktop speech-to-text is painfully slow, Claude doesn't even have one, and Google Gemini's speech recognition is... let's just say it's not great. So I thought, "Why not build my own that's actually fast?" And here we are - a tool that transcribes 21 seconds of audio in 0.36 seconds. Take that, slow AI interfaces! 🎤⚡
+
 A GPU-accelerated speech-to-text application with smart VRAM management and instant transcription.
 
 ## 🚀 Features
